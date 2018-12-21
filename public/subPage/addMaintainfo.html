@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../lib/css/dialog.css">
+    <!--<link rel="stylesheet" href="lib/css/iconfont.css">-->
+    <link rel="stylesheet" href="../lib/css/nprogress.css">
+    <link rel="stylesheet" href="../lib/css/iconfont.css">
+
+
+    <link rel="stylesheet" href="../css/init.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="../lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="col-lg-12 data-table">
+    <!-- 表格头部 -->
+    <div class="panel panel-default toggle">
+        <div class="panel-heading">
+            <h3 class="panel-title">事故信息添加</h3>
+        </div>
+    </div>
+    <!-- 主要数据 -->
+    <div class="panel-body">
+        <form action="" class="form-horizontal group-border hover-stripped">
+            <div class="form-group">
+                <label class="control-label">维修编号</label>
+                <input type="text" class="form-control" placeholder="维修编号" id="Wid" autofocus="autofocus">
+            </div>
+            <div class="form-group">
+                <label class="control-label">车牌号</label>
+                <select class="form-control" id="carArea">
+                    <option value="京">京</option>
+                    <option value="津">津</option>
+                    <option value="冀">冀</option>
+                    <option value="晋">晋</option>
+                    <option value="蒙">蒙</option>
+                    <option value="辽">辽</option>
+                    <option value="吉">吉</option>
+                    <option value="黑">黑</option>
+                    <option value="沪">沪</option>
+                    <option value="苏">苏</option>
+                    <option value="浙">浙</option>
+                    <option value="皖">皖</option>
+                    <option value="闽">闽</option>
+                    <option value="赣">赣</option>
+                    <option value="鲁">鲁</option>
+                    <option value="豫">豫</option>
+                    <option value="鄂">鄂</option>
+                    <option value="湘">湘</option>
+                    <option value="粤" selected>粤</option>
+                    <option value="桂">桂</option>
+                    <option value="琼">琼</option>
+                    <option value="渝">渝</option>
+                    <option value="川">川</option>
+                    <option value="贵">贵</option>
+                    <option value="云">云</option>
+                    <option value="藏">藏</option>
+                    <option value="陕">陕</option>
+                    <option value="甘">甘</option>
+                    <option value="青">青</option>
+                    <option value="宁">宁</option>
+                    <option value="新">新</option>
+                </select>
+                <input type="text" id="carId" class="form-control" placeholder="车牌号" required autofocus="autofocus">
+            </div>
+            <div class="form-group">
+                <label class="control-label">维修内容</label>
+                <textarea class="form-control" rows="3" placeholder="维修内容" id="Nr" autofocus="autofocus"></textarea>
+            </div>
+            <div class="form-group">
+                <label class="control-label">维修费用</label>
+                <input type="number" class="form-control" min="0" placeholder="维修费用" id="Fy" autofocus="autofocus"> 元
+            </div>
+            <div class="form-group">
+                <label class="control-label">维修日期</label>
+                <input type="date" class="form-control" id="Wrq" placeholder="维修日期" autofocus="autofocus">
+            </div>
+            <div class="form-group">
+                <label class="control-label">维修地址</label>
+                <input type="text" class="form-control" min="0" placeholder="维修地址" id="Waddress" autofocus="autofocus">
+            </div>
+            <div class="form-group btn-box">
+                <input type="button" class="btn btn-primary" value="添加" id="addMaintainfo">
+                <input type="reset" class="btn btn-default" value="重置">
+            </div>
+        </form>
+    </div>
+</div>
+<!--content End-->
+
+<!-- JavaScript -->
+<script src="../lib/js/jquery.min.js" type="text/javascript"></script>
+<script src="../lib/js/bootstrap.min.js"></script>
+<script src="../lib/js/jquery.slimscroll.min.js"></script>
+<script src="../lib/js/zepto.min.js"></script>
+<script src="../lib/js/dialog.min.js"></script>
+<script src="../lib/js/nprogress.js"></script>
+
+<script src="../js/tools.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/addInfo.js"></script>
+
+</body>
+</html>

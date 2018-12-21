@@ -1,0 +1,89 @@
+
+/*------------------------- 表格样式 -------------------------*/
+.panel-body {
+    padding: 15px;
+}
+#datatable td,th {
+    text-align: center;
+    line-height: 35px;
+}
+#datatable button.iconfont {
+    border: none;
+    background-color: transparent;
+    color: #75b9e6;
+    font-size: 25px;
+}
+#datatable button.iconfont:hover {
+    color: #3498da;
+}
+
+/*------------------------- 模态框样式 -------------------------*/
+.panel {
+    position: relative;
+}
+.search-box {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.search-box input {
+    height: 30px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+.page-box {
+    display: inline-block;
+    float: right;
+    height: 24px;
+    line-height: 22px;
+}
+.page-box i {
+    font-size: 22px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.page-box .number-box,
+.page-box .page-text{
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    top: -2px;
+}
+.page-box .number-box i {
+    display: inline-block;
+    text-align: center;
+    width: 22px;
+    height: 22px;;
+    line-height: 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    color: #768399;
+    border: 1px solid #768399;
+}
+.page-box i:hover {
+    color: #75b9e6;
+}
+.page-box .number-box i:hover,
+.page-box .number-box i:active,
+.page-box .number-box i.active {
+    border: 1px solid #75b9e6;
+    background-color: #75b9e6;
+    color: #fff;
+}
+#jumpPage {
+    border-radius: 5px;
+    border: 1px solid #768399;
+    width: 40px;
+    height: 22px;
+    line-height: 18px;
+    text-align: center;
+    padding: 2px 5px;
+    font-size:14px;
+    margin: 0 10px;
+}
+.page-text>span {
+    color: #75b9e6;
+}
